@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Space Grotesk';
+}
+header{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+.ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.btn-one{
+    border: none;
+    border: solid 1px #191A23;
+    width: 231px;
+    height: 68px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    align-items: center;
+    padding: 20px 35px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+main{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #000000;
+}
+.text{
+    font-size: 20px;
+    color: #000000;
+    margin: 35px 0px;
+}
+.btn-two{
+    border: none;
+    border-radius: 10px;
+    background-color: #191A23;
+    font-size: 20px;
+    color: white;
+    padding: 20px 35px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    filter: grayscale(100%);
+    margin-top: 70px;
+}
+footer:hover{
+    filter: grayscale(0%);
+    transition: all 0.5s;
+}
+.cards{
+    margin-top: 140px;
+}
+.cardflex{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 30px;
+    justify-content: center;
+}
+.card1{ 
+    width: 600px;
+    height: 310px;
+    background-color: #F3F3F3;
+    border: solid 1px #191A23;
+    border-radius: 45px;
+    border-bottom: solid 6px #191A23;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+.tab1 p{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #B9FF66;
+    display: inline;
+    border-radius: 6px;
+    padding: 0px 8px;
+}
+.icon-a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 93px;
+}
+.icon-a a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 20px;
+}
+.card3 .tab1 .icon-a a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.card2{ 
+    width: 600px;
+    height: 310px;
+    background-color: #B9FF66;
+    border: solid 1px #191A23;
+    border-radius: 45px;
+    border-bottom: solid 6px #191A23;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+.card2 .tab1 p{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: white;
+    display: inline;
+    border-radius: 6px;
+    padding: 0px 8px;
+}
+.card3{ 
+    width: 600px;
+    height: 310px;
+    background-color: #191A23;
+    border: solid 1px #191A23;
+    border-radius: 45px;
+    border-bottom: solid 6px #191A23;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+.card4{ 
+    width: 600px;
+    height: 310px;
+    background-color: #F3F3F3;
+    border: solid 1px #191A23;
+    border-radius: 45px;
+    border-bottom: solid 6px #191A23;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+.card3 .tab1 p{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: white;
+    display: inline;
+    border-radius: 6px;
+    padding: 0px 8px;
+}
+.ul a:hover{
+    color: rgb(0, 172, 0);
+    transition: all 0.4s ;
+}
+.btn-two:hover{
+    background-color: green;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 15px green;
+}
+.btn-one:hover{
+    transition: all 1s;
+    background-color: rgba(194, 194, 194, 0.103);
+}
+.card1:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.589);
+    transition: all 0.8s;
+}
+.card3:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.589);
+    transition: all 0.8s;
+}
+.card4:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.589);
+    transition: all 0.8s;
+}
+.card2:hover{
+    box-shadow: 0px 0px 15px rgba(0, 128, 0, 0.699);
+    transition: all 0.8s;
+}
